@@ -1,5 +1,5 @@
 # Nestalarm
-### A script to monitor an EnvisaLink alarm module running Honeywell firmware, and set a Nest device to Home/Away depending on whether the alarm is Disarmed/Away.
+### Monitor an EnvisaLink alarm module running Honeywell firmware, and set a Nest device to Home/Away depending on whether the alarm is Disarmed/Away.
 
 ## Setup
 * Install the `requests` library according to `requirements.txt`

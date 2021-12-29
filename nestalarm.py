@@ -49,7 +49,7 @@ def setNestMode(mode):
 
 
 # Login to alarm
-alarm = socket.create_connection((config.ALARM_IP, config. ALARM_PORT))
+alarm = socket.create_connection((config.ALARM_IP, config.ALARM_PORT))
 alarm.recv(1024)
 alarm.send(f"{config.ALARM_PASSWORD}\r\n".encode("ascii"))
 alarm.recv(1024)
